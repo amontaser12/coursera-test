@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		*{
+			padding-right: 15px;
+			padding-left: 15px;
+			margin-right: auto;
+			margin-left: auto;
+			box-sizing: border-box;
+		}
+		#head{
+			text-align: center;
+		}
+		.test{
+			background-color: #999999;
+			border: 1px solid #000;
+			padding-right: 0px
+		}
+		.test-1{
+			float: right;
+			text-transform: capitalize;
+			background-color: #d59898;
+			display: inline-block;
+			margin-top: 0px;
+			border: 1px solid black;
+
+		}
+		.test-2{
+			margin-top: 0px;
+		}
+		.test-3{
+			float: right;
+			text-transform: capitalize;
+			background-color: #c14543;
+			display: inline-block;
+			margin-top: 0px;
+			border: 1px solid black;
+		}
+		.test-4{
+			float: right;
+			text-transform: capitalize;
+			background-color: #e5d198;
+			display: inline-block;
+			margin-top: 0px;
+			border: 1px solid black;
+		}
+		@media (min-width: 992px){
+			.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12{
+				float: left;
+				box-sizing: border-box;
+			}
+			.col-lg-12{
+				width: 100%;
+			}
+			.col-lg-4{
+				width: 33.33%
+			}
+			#head{
+				margin-bottom: 70px;
+			}
+		}
+		@media (min-width: 768px) and (max-width:991px){
+			.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{
+				float: left;
+			}
+			.col-md-12{
+				width: 100%;	
+			}
+			.col-md-6{
+				width: 50%;
+				margin-bottom:20px;
+			}
+			#head{
+				margin-bottom: 40px;
+			}
+		}
+		@media (max-width:767px){
+			.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12{
+				float: left;
+			}
+			.col-sm-12{
+				width: 100%;
+				margin-bottom: 20px;
+			}
+			#head{
+				margin-bottom: 20px;
+			}
+		}
+	</style>
+</head>
+<body>
+	<h1 class="col-lg-12 col-md-12 col-sm-12" id="head">
+		our menu
+	</h1>
+	<div class="col-lg-4 col-md-6 col-sm-12">
+		<div class="test">
+			<h3 class="test-1">chicken</h3>
+			<br>
+			<br>
+			<p class="test-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur magnam ea, eveniet nostrum temporibus velit voluptates aliquid nobis! Dignissimos, ipsa?</p>
+		</div>
+	</div>
+	<div class="col-lg-4 col-md-6 col-sm-12">
+		<div class="test">
+			<h3 class="test-3">beef</h3>
+			<br>
+			<br>
+			<p class="test-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur magnam ea, eveniet nostrum temporibus velit voluptates aliquid nobis! Dignissimos, ipsa?</p>
+		</div>
+	</div>
+	<div class="col-lg-4 col-md-12 col-sm-12">
+		<div class="test">
+			<h3 class="test-4">sushi</h3>
+			<br>
+			<br>
+			<p class="test-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur magnam ea, eveniet nostrum temporibus velit voluptates aliquid nobis! Dignissimos, ipsa?</p>
+		</div>
+	</div>	
+</body>
+</html>
