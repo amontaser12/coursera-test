@@ -1,0 +1,55 @@
+.navbar-default{
+	background-color: #999999;
+	border: 2px solid #000;
+	border-radius: 0px;
+}
+.navbar-default .navbar-brand{
+	color: #000;
+	font-weight: bolder;
+}
+.navbar-default .navbar-brand:hover{
+	color: #000;
+	background: #999;
+}
+#test-3{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.navbar-default .navbar-nav > li > a{
+	text-align: center;
+	border: 1px solid #000;
+	background: #fff;
+	color: #000;
+	text-transform: capitalize;
+}
+.test-1{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+#test-2{
+	background-color: #999;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+@media (min-width: 992px){
+	#test{
+		margin-top: 15px;
+		margin-bottom: 35px;
+	}
+}
+@media (min-width: 768px) and (max-width:991px){
+	#test{
+		margin-top: 15px;
+		margin-bottom: 35px;
+	}
+}
+@media (max-width: 767px){
+	#test{
+		margin-top: -15px;
+		margin-bottom: 30px;
+	}
+	#test-2{
+		margin-right: 70px;
+		margin-left: 70px;
+	}
+}
